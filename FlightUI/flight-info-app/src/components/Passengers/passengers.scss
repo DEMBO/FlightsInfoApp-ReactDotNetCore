@@ -1,0 +1,49 @@
+.passengers {
+	.add-passenger {
+		width: 600px;
+		display: inline-block;
+	}
+
+	button[type=submit] {
+		text-align: left;
+		float: left;
+	}
+
+	label {
+		text-align: left;
+		width: 50%;
+		float: left;
+	}
+
+	.column {
+		text-align: left;
+		float: left;
+		width: 20%;
+	}
+
+	.bp4-input-group {
+		text-align: right;
+		float: right;
+		width: 175px;
+	}
+
+	.row {
+		width: 600px;
+		display: table;
+		border: 1px solid gray
+	}
+
+	.bp4-form-helper-text {
+		display: inline-block;
+		margin-left: 250px;
+		position: absolute;
+	}
+
+	.bp4-form-group {
+		height: 40px;
+	}
+
+	.table {
+		display: inline-block;
+	}
+}

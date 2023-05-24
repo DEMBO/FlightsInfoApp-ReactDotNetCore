@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Renders correctly 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    Flight Info App
+  </h1>
+  <Tabs>
+    <TabList>
+      <Tab>
+        Flights
+      </Tab>
+      <Tab>
+        Passengers
+      </Tab>
+    </TabList>
+    <TabPanel>
+      <Flights
+        flights={Array []}
+        getFlights={[Function]}
+        setFlights={[Function]}
+      />
+    </TabPanel>
+    <TabPanel>
+      <h2>
+        Add at least one flight first.
+      </h2>
+    </TabPanel>
+  </Tabs>
+</div>
+`;

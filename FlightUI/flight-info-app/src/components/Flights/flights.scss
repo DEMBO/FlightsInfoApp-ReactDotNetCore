@@ -1,0 +1,49 @@
+.flights {
+	.add-flight {
+		width: 400px;
+		display: inline-block;
+	}
+
+	label {
+		text-align: left;
+		width: 50%;
+		float: left;
+	}
+
+	button[type=submit] {
+		text-align: left;
+		float: left;
+	}
+
+	.column {
+		text-align: left;
+		float: left;
+		width: 50%;
+	}
+
+	.bp4-input-group {
+		text-align: right;
+		float: right;
+		width: 175px;
+	}
+
+	.bp4-form-group {
+		height: 40px;
+	}
+
+	.bp4-form-helper-text {
+		display: inline-block;
+		margin-left: 250px;
+		position: absolute;
+	}
+
+	.row {
+		width: 400px;
+		display: table;
+		border: 1px solid gray
+	}
+
+	.table {
+		display: inline-block;
+	}
+}
